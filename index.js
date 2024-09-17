@@ -64,7 +64,7 @@ window.onload = function () {
     topHeightImage = new Image();
     topHeightImage.src = "./assets/toppipe.png";
     bottomHeightImage = new Image();
-    bottomHeightImage.src = "flappybirdd/assets/bottompipe.png";
+    bottomHeightImage.src = "./assets/bottompipe.png";
   };
 
   requestAnimationFrame(update);
