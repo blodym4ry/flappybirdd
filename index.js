@@ -149,7 +149,12 @@ window.onload = function () {
     pipeArray.push(topPipe, bottomPipe);
   }
 
-  function moveBird() {
+function moveBird() {
+    const backgroundMusic = document.getElementById("backgroundMusic");
+    if (backgroundMusic.paused) {
+        backgroundMusic.play();  // Müzik kuş zıpladığında başlar
+    }
+    
     velocityY = -6 - gravity;
     if (gameOver) {
       gameOver = false;
@@ -157,7 +162,7 @@ window.onload = function () {
       pipeArray = [];
       score = 0;
     }
-  }
+}
 
   function isCollision(a, b) {
     return (
