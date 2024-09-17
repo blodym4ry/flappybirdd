@@ -42,9 +42,6 @@ window.onload = function () {
   board.width = boardWidth;
   board.height = boardHeight;
 
-<audio id="backgroundMusic" src="./assets/background.mp3" loop></audio>
-
-
   // used to draw on the canvas
   context = board.getContext("2d");
 
