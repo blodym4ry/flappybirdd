@@ -38,6 +38,12 @@ let velocityY = 0; // bird jump speed;
 let gravity = 0.25;
 
 window.onload = function () {
+// Oyun yüklendiğinde arka plan müziğini başlat
+  const backgroundMusic = document.getElementById("backgroundMusic");
+  backgroundMusic.play();
+
+  // Geri kalan kodunuz burada devam ediyor...
+
   board = document.getElementById("game");
   board.width = boardWidth;
   board.height = boardHeight;
