@@ -74,7 +74,7 @@ window.onload = function () {
     if (gameOver) {
       context.fillStyle = "#FFF";
       context.font = "50px Arial";
-      context.fillText("GAME OVER", 15, 200);
+      context.fillText("CHP KAZANDI", 15, 200);
       return;
     }
 
