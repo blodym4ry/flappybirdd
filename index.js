@@ -4,7 +4,6 @@ let boardHeight = window.innerHeight;
 let context;
 
 const WIDTH_MULTI = boardWidth / 360;
-<audio id="backgroundMusic" src="./assets/background.mp3" loop></audio>
 
 // bird
 let birdWidth = 34 * WIDTH_MULTI;
