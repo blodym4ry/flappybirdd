@@ -6,8 +6,8 @@ let context;
 const WIDTH_MULTI = boardWidth / 360;
 
 // bird
-let birdWidth = 34 * WIDTH_MULTI;
-let birdHeight = 24 * WIDTH_MULTI;
+let birdWidth = 34 * WIDTH_MULTI * 2;
+let birdHeight = 24 * WIDTH_MULTI * 2;
 let birdX = boardWidth / 8;
 let birdY = boardHeight / 2;
 let birdImage;
