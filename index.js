@@ -38,6 +38,9 @@ let velocityY = 0; // bird jump speed;
 let gravity = 0.25;
 
 window.onload = function () {
+// Oyun yüklendiğinde arka plan müziğini başlat
+  const backgroundMusic = document.getElementById("backgroundMusic");
+  backgroundMusic.play();
   board = document.getElementById("game");
   board.width = boardWidth;
   board.height = boardHeight;
@@ -114,7 +117,7 @@ window.onload = function () {
     // score
     context.fillStyle = "#FFF";
     context.font = "20px Arial";
-    context.fillText(score, 15, 30);
+    context.fillText(score.toFixed(2) + " USDT", 15, 30);
   }
 
   function placePipes() {
